@@ -1,0 +1,13 @@
+﻿cenario;algoritmo;agendadas_media;pontuacao_media;pontuacao_dp;pct_do_cpsat;tempo_medio
+pequeno;CP-SAT (grade);29;489470;0;100.0;2.82
+pequeno;CP-SAT (intervalos);29;489459;0;100.0;20.12
+pequeno;Hill-Climbing;29;489348;0;99.98;2.6
+pequeno;Simulated Annealing;29;489364;2;99.98;5.0
+medio;CP-SAT (grade);74;1428781;0;100.0;20.77
+medio;CP-SAT (intervalos);73;1338678;0;93.69;20.14
+medio;Hill-Climbing;74;1428568;10;99.99;1.83
+medio;Simulated Annealing;74.4;1428560;27;99.98;5.0
+grande;CP-SAT (grade);195;3485420;0;100.0;20.62
+grande;CP-SAT (intervalos);133;2136795;0;61.31;20.14
+grande;Hill-Climbing;172.6;3565674;24;102.3;1.97
+grande;Simulated Annealing;174.4;3569636;4878;102.42;5.0

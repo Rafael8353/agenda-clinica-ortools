@@ -1,0 +1,37 @@
+﻿cenario;algoritmo;semente;agendadas;pontuacao;tempo;otimo;limite_superior
+pequeno;CP-SAT (grade);0;29;489470;2.82;True;489470
+pequeno;CP-SAT (intervalos);0;29;489459;20.12;False;489672
+pequeno;Hill-Climbing;0;29;489348;3.81;;
+pequeno;Hill-Climbing;1;29;489348;2.25;;
+pequeno;Hill-Climbing;2;29;489348;2.17;;
+pequeno;Hill-Climbing;3;29;489348;2.44;;
+pequeno;Hill-Climbing;4;29;489348;2.31;;
+pequeno;Simulated Annealing;0;29;489365;5.0;;
+pequeno;Simulated Annealing;1;29;489362;5.0;;
+pequeno;Simulated Annealing;2;29;489363;5.0;;
+pequeno;Simulated Annealing;3;29;489367;5.0;;
+pequeno;Simulated Annealing;4;29;489363;5.0;;
+medio;CP-SAT (grade);0;74;1428781;20.77;False;1433769
+medio;CP-SAT (intervalos);0;73;1338678;20.14;False;1789696
+medio;Hill-Climbing;0;74;1428554;2.37;;
+medio;Hill-Climbing;1;74;1428572;1.65;;
+medio;Hill-Climbing;2;74;1428558;1.63;;
+medio;Hill-Climbing;3;74;1428582;1.92;;
+medio;Hill-Climbing;4;74;1428574;1.59;;
+medio;Simulated Annealing;0;74;1428575;5.0;;
+medio;Simulated Annealing;1;74;1428583;5.0;;
+medio;Simulated Annealing;2;75;1428558;5.0;;
+medio;Simulated Annealing;3;74;1428573;5.0;;
+medio;Simulated Annealing;4;75;1428509;5.0;;
+grande;CP-SAT (grade);0;195;3485420;20.62;False;3606200
+grande;CP-SAT (intervalos);0;133;2136795;20.14;False;4489100
+grande;Hill-Climbing;0;173;3565648;2.58;;
+grande;Hill-Climbing;1;173;3565655;1.89;;
+grande;Hill-Climbing;2;173;3565681;1.62;;
+grande;Hill-Climbing;3;172;3565717;1.81;;
+grande;Hill-Climbing;4;172;3565669;1.93;;
+grande;Simulated Annealing;0;174;3565630;5.0;;
+grande;Simulated Annealing;1;175;3575646;5.0;;
+grande;Simulated Annealing;2;174;3565670;5.0;;
+grande;Simulated Annealing;3;174;3565661;5.0;;
+grande;Simulated Annealing;4;175;3575575;5.0;;

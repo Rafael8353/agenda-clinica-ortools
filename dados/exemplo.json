@@ -1,0 +1,221 @@
+{
+  "dias": ["Seg", "Ter", "Qua", "Qui", "Sex"],
+  "slots_por_dia": 8,
+  "hora_inicio": 8,
+  "minutos_por_slot": 60,
+  "salas": [
+    {
+      "nome": "Sala 1",
+      "equipamento": true
+    },
+    {
+      "nome": "Sala 2",
+      "equipamento": false
+    }
+  ],
+  "dentistas": [
+    {
+      "nome": "Dra. Ana",
+      "disponibilidade": {
+        "Ter": [[0, 8]],
+        "Qua": [[0, 8]],
+        "Qui": [[0, 4]],
+        "Sex": [[4, 8]]
+      }
+    },
+    {
+      "nome": "Dr. Bruno",
+      "disponibilidade": {
+        "Seg": [[0, 4]],
+        "Ter": [[4, 8]],
+        "Qua": [[0, 8]]
+      }
+    },
+    {
+      "nome": "Dra. Carla",
+      "disponibilidade": {
+        "Seg": [[0, 8]],
+        "Ter": [[0, 4]],
+        "Qua": [[0, 8]],
+        "Sex": [[0, 4]]
+      }
+    }
+  ],
+  "consultas": [
+    {
+      "paciente": "Paciente 001",
+      "dentista": "Dra. Carla",
+      "duracao": 2,
+      "prioridade": 2,
+      "precisa_equipamento": true
+    },
+    {
+      "paciente": "Paciente 002",
+      "dentista": "Dr. Bruno",
+      "duracao": 1,
+      "prioridade": 1,
+      "precisa_equipamento": false
+    },
+    {
+      "paciente": "Paciente 003",
+      "dentista": "Dr. Bruno",
+      "duracao": 1,
+      "prioridade": 3,
+      "precisa_equipamento": false
+    },
+    {
+      "paciente": "Paciente 004",
+      "dentista": "Dra. Carla",
+      "duracao": 1,
+      "prioridade": 1,
+      "precisa_equipamento": false
+    },
+    {
+      "paciente": "Paciente 005",
+      "dentista": "Dra. Ana",
+      "duracao": 1,
+      "prioridade": 2,
+      "precisa_equipamento": false
+    },
+    {
+      "paciente": "Paciente 006",
+      "dentista": "Dr. Bruno",
+      "duracao": 2,
+      "prioridade": 1,
+      "precisa_equipamento": false
+    },
+    {
+      "paciente": "Paciente 007",
+      "dentista": "Dra. Carla",
+      "duracao": 1,
+      "prioridade": 2,
+      "precisa_equipamento": false
+    },
+    {
+      "paciente": "Paciente 008",
+      "dentista": "Dr. Bruno",
+      "duracao": 1,
+      "prioridade": 1,
+      "precisa_equipamento": false
+    },
+    {
+      "paciente": "Paciente 009",
+      "dentista": "Dra. Carla",
+      "duracao": 1,
+      "prioridade": 3,
+      "precisa_equipamento": false
+    },
+    {
+      "paciente": "Paciente 010",
+      "dentista": "Dra. Carla",
+      "duracao": 1,
+      "prioridade": 1,
+      "precisa_equipamento": false
+    },
+    {
+      "paciente": "Paciente 011",
+      "dentista": "Dr. Bruno",
+      "duracao": 2,
+      "prioridade": 2,
+      "precisa_equipamento": false
+    },
+    {
+      "paciente": "Paciente 012",
+      "dentista": "Dra. Ana",
+      "duracao": 1,
+      "prioridade": 2,
+      "precisa_equipamento": false
+    },
+    {
+      "paciente": "Paciente 013",
+      "dentista": "Dra. Carla",
+      "duracao": 1,
+      "prioridade": 2,
+      "precisa_equipamento": false
+    },
+    {
+      "paciente": "Paciente 014",
+      "dentista": "Dra. Carla",
+      "duracao": 2,
+      "prioridade": 1,
+      "precisa_equipamento": false
+    },
+    {
+      "paciente": "Paciente 015",
+      "dentista": "Dra. Ana",
+      "duracao": 2,
+      "prioridade": 2,
+      "precisa_equipamento": false
+    },
+    {
+      "paciente": "Paciente 016",
+      "dentista": "Dr. Bruno",
+      "duracao": 2,
+      "prioridade": 1,
+      "precisa_equipamento": false
+    },
+    {
+      "paciente": "Paciente 017",
+      "dentista": "Dra. Carla",
+      "duracao": 1,
+      "prioridade": 1,
+      "precisa_equipamento": true
+    },
+    {
+      "paciente": "Paciente 018",
+      "dentista": "Dra. Carla",
+      "duracao": 1,
+      "prioridade": 1,
+      "precisa_equipamento": true
+    },
+    {
+      "paciente": "Paciente 019",
+      "dentista": "Dra. Carla",
+      "duracao": 1,
+      "prioridade": 2,
+      "precisa_equipamento": false
+    },
+    {
+      "paciente": "Paciente 020",
+      "dentista": "Dra. Carla",
+      "duracao": 1,
+      "prioridade": 3,
+      "precisa_equipamento": false
+    },
+    {
+      "paciente": "Paciente 021",
+      "dentista": "Dra. Carla",
+      "duracao": 2,
+      "prioridade": 1,
+      "precisa_equipamento": false
+    },
+    {
+      "paciente": "Paciente 022",
+      "dentista": "Dra. Carla",
+      "duracao": 1,
+      "prioridade": 1,
+      "precisa_equipamento": false
+    },
+    {
+      "paciente": "Paciente 023",
+      "dentista": "Dra. Ana",
+      "duracao": 1,
+      "prioridade": 1,
+      "precisa_equipamento": false
+    },
+    {
+      "paciente": "Paciente 024",
+      "dentista": "Dra. Carla",
+      "duracao": 1,
+      "prioridade": 3,
+      "precisa_equipamento": false
+    },
+    {
+      "paciente": "Paciente 025",
+      "dentista": "Dr. Bruno",
+      "duracao": 1,
+      "prioridade": 1,
+      "precisa_equipamento": false
+    }
+  ]
+}
